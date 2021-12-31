@@ -31,12 +31,8 @@ body {
   box-shadow: 5px 5px 10px #aaaaaa;
 }
 
-.message-tittle {
-  /* text-align: justify; */
-  font-size: 1.2rem;
-}
-
-.message-text {
+.message {
+  text-align: justify;
   font-size: 1.2rem;
 }
 
@@ -47,7 +43,7 @@ body {
 
 .container-message > i {
   margin-right: 10px;
-  color: #000000;
+  color: black;
 }
 
 .button-next {
@@ -58,13 +54,4 @@ body {
   border: none;
   box-shadow: 2px 2px 5px #888888;
   transition: color 0.4s;
-}
-
-.container-message>i {
-  color: #F9C610;
-}
-
-.main-message>img {
-  width: 100%;
-  margin: 10px 0;
 }

@@ -27,11 +27,9 @@ function App() {
   return (
     <>
       <AlmaMessage 
-        color    = {color}
-        tittle   = {almaMessage[message].tittle} 
-        text     = {almaMessage[message].text}
-        image    = {almaMessage[message].image}
-        handleMessage={handleMessage}
+        text = {almaMessage[message]}
+        color = {color}
+        handleMessage={handleMessage} 
       />
     </>
   );
