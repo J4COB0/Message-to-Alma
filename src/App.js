@@ -8,7 +8,7 @@ import AlmaMessage from './components/AlmaMessage';
 const getRamdonNumber = (maxLimit) => Math.floor(Math.random() * maxLimit);
 
 function App() {
-  
+
   /* UseState */
   const [message, setMessage] = useState(0);
   const handleMessage = () => {
@@ -18,11 +18,9 @@ function App() {
   };
 
   const color = colors[getRamdonNumber(colors.length)];
-  /* const [color, setColor] = useState( colors[getRamdonNumber(colors.length)]);
-  const handleColor = () => setColor( colors[getRamdonNumber(colors.length)]) */
 
   /* UseEffect */
-  document.body.style = `background: ${color}`
+  document.body.style = `background: ${color}`;
 
   return (
     <>
