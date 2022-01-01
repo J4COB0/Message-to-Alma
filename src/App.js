@@ -1,7 +1,7 @@
 import './App.css';
 import colors from './json/colors'
 import almaMessage from'./json/alma-message.json'
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import AlmaMessage from './components/AlmaMessage';
 
 /* Funtions */
